@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Table Reservation System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>🍽 Restaurant Table Reservation System</h1>
+        <p>Reserve your table in just a few clicks</p>
+    </header>
+
+    <div class="container">
+
+        <h2>Reserve Your Table</h2>
+
+        <form id="reservationForm">
+
+            <label>Full Name</label>
+            <input type="text" id="name" placeholder="Enter your name" required>
+
+            <label>Email</label>
+            <input type="email" id="email" placeholder="Enter your email" required>
+
+            <label>Phone Number</label>
+            <input type="tel" id="phone" placeholder="Enter your phone number" required>
+
+            <label>Date</label>
+            <input type="date" id="date" required>
+
+            <label>Time</label>
+            <input type="time" id="time" required>
+
+            <label>Number of Guests</label>
+            <select id="guests">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6+</option>
+            </select>
+
+            <button type="submit">Reserve Table</button>
+
+        </form>
+
+        <div id="message"></div>
+
+    </div>
+
+    <footer>
+        <p>© 2026 Restaurant Table Reservation System | Developed by Pranavi</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
